@@ -53,3 +53,41 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+.header-box{
+    border: 1px solid green;
+    display: flex;
+    height: 275px;
+    justify-content: center;
+  }
+.top-box{
+    border: 1px solid blue;
+    display: flex;
+    width: 60%;
+    height: 250px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+.top-box div{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 40px 30px;
+    margin: 10px;
+} 
+.card-1{
+    background: peru;
+}
+.card-2{
+    background: pink;   
+}
+.card-3{
+    background: skyblue;
+}
+.card-4{
+    background: teal;
+}
+.card-5{
+    background: olive
+}
